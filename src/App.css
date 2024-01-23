@@ -1,0 +1,206 @@
+h1 {
+  text-align: center;
+}
+
+hr {
+  width: 100% !important;
+}
+
+.bloco {
+  width: 50% !important;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(252,147,34,1) 0%, rgba(34,193,195,1) 100%);
+  border-radius: 20px;
+}
+
+.rodape {
+  width: 50% !important;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.corpo {
+  padding: 0 20px 20px 20px;
+  width: 100%;
+}
+
+.cidade {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 15pt;
+}
+
+.linha1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.linha1 .coluna1 {
+  text-align: center;
+}
+
+.temperatura {
+  font-size: 18pt;
+}
+
+.linha1 .coluna2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.tempo {
+  display: flex;
+  justify-content: center;
+}
+
+.descricao-tempo {
+  width: fit-content;
+}
+
+.icone-tempo {
+  margin-left: 10px;
+  width: fit-content;
+}
+
+.linha2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.linha2 .coluna1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.temp-max {
+  display: flex;
+  justify-content: center;
+}
+
+.icone-temp-max {
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.valor-temp-max {
+  width: fit-content;
+}
+
+.temp-min {
+  display: flex;
+  justify-content: center;
+}
+
+.icone-temp-min {
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.valor-temp-min {
+  width: fit-content;
+}
+
+.linha2 .coluna2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.umidade {
+  display: flex;
+  justify-content: center;
+}
+
+.icone-umidade {
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.porcentagem-umidade {
+  width: fit-content;
+}
+
+.vento {
+  display: flex;
+  justify-content: center;
+}
+
+.icone-vento {
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.velocidade-vento {
+  width: fit-content;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social a {
+  color: #000;
+  width: fit-content;
+  font-size: 16pt;
+}
+
+@media screen and (max-width: 768px) {
+  .bloco {
+    width: 95% !important;
+  }
+
+  .rodape {
+    width: 95% !important;
+  }
+
+  .linha1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .linha2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .linha1 .coluna1 h2 {
+    font-size: 34pt;
+  }
+
+  .linha1 .coluna2 {
+    font-size: 20pt;
+    margin-bottom: 20px;
+  }
+
+  .linha2 .coluna1 {
+    font-size: 18pt;
+  }
+  
+  .linha2 .coluna2 {
+    font-size: 18pt;
+  }
+
+  .temp-max {
+    margin-bottom: 10px;
+  }
+
+  .temp-min {
+    margin-bottom: 10px;
+  }
+
+  .umidade {
+    margin-bottom: 10px;
+  }
+
+  .vento {
+    margin-bottom: 10px;
+  }
+}
