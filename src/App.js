@@ -5,7 +5,7 @@ import 'moment/locale/pt-br';
 import './App.css';
 import WeatherIcon from './components/WeatherIcon/WeatherIcon';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDroplet, faEnvelope, faGlobe, faSitemap, faTemperatureArrowDown, faTemperatureArrowUp, faWind } from '@fortawesome/free-solid-svg-icons';
+import { faDroplet, faEnvelope, faGlobe, faTemperatureArrowDown, faTemperatureArrowUp, faWind } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
       );
 
       const response = await axios.get(
-        `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=243407f7190a846b8a643d31a0be604e&units=metric&lang=pt_br`
+        `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_OPENWEATHER_API_KEY}&units=metric&lang=pt_br`
       );
 
       setWeather(response.data.weather[0].description);
