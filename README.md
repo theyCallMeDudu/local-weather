@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Local Weather
+This is a didactic project made to exercise concepts of React Js.
+When we open it on the browser, it requires permission to access your GPS location so that it can give us the current weather of our current location.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
